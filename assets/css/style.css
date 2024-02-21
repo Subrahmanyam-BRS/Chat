@@ -1,5 +1,3 @@
-
-
 :root {
     --primary-color: #1A4B84;
     --chathams_blue: #1A4B84;
@@ -132,10 +130,11 @@ header h3 {
 }
 
 header h4 {
-    font: normal normal 600 18px/28px Oswald;
+    font: 25px Oswald;
     letter-spacing: 0.36px;
     color: #191919;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 header p {
@@ -299,4 +298,33 @@ footer {
 }
 .card{
   height: 70vh;
+}
+#emoji-btn{
+    position: absolute;
+    font-size: 1.2rem;
+    background: transparent;
+    right: 38%;
+    top:2px;
+    opacity:0.5;
+    border: none;
+    cursor: pointer;
+}
+img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 16%;
+    top:2px;
+}
+.img-thumbnail {
+    height: 100px;
+    width: 100px;
+}
+.message-image {
+    height: 100px;
+    width: 150px;
+}
+.image-content {
+    display: flex;
+    flex-direction: column;
 }
